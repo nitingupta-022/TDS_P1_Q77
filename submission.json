@@ -1,0 +1,8 @@
+{
+  "prompt": "your complete final prompt, verbatim — include any negative prompts, style weights, or model parameters",
+  "model": "model name and version, e.g. Midjourney v6.1, DALL·E 3, Flux Pro 1.1",
+  "concept": "the data science or ML concept you chose",
+  "tradition_name": "the name of the visual tradition",
+  "tradition_period": "approximate historical period, e.g. 1920s–1930s",
+  "tradition_approach": "max 40 words: which specific visual characteristics of the tradition did you target, and why those?"
+}
