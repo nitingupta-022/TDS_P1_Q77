@@ -1,8 +1,37 @@
 {
-  "prompt": "14th-century Gothic manuscript illumination on aged vellum depicting a 'Random Forest' ensemble. Multiple branching 'Trees of Decision' (Arbores Decisionis) intertwined with acanthus leaves. Nodes are burnished gold leaf circles containing Latinized data labels in Gothic blackletter script ('Si Aetas < XXX'). Roots emerge from a 'Data Radix' base. Flat spatial organization, no linear perspective, tempera palette of vermilion, lapis lazuli, and malachite. Decorative marginalia featuring a rabbit and snail. High-resolution authentic parchment texture, heavy ink outlines.",
-  "model": "Gemini 3 Flash",
-  "concept": "Random Forest / Ensemble of Decision Trees",
-  "tradition_name": "Gothic Manuscript Illumination",
-  "tradition_period": "1250–1400",
-  "tradition_approach": "Applied the 'Arbor Virtutum' hierarchical branching logic to visualize decision nodes. Utilized flat spatial organization, burnished gold leaf for leaf-nodes, and 'littera textualis' typography to avoid anachronistic modern diagrammatic conventions while maintaining binary-split discernibility."
+  "tradition_identified_by_evaluator": "<string: what visual tradition do YOU think this image belongs to, based on the image alone — record this before considering the student's stated tradition>",
+  "tradition_match": <boolean: does your independent identification match the student's stated tradition?>,
+  "concept_identified_by_evaluator": "<string: what data science concept do you think is being depicted, based on the image alone?>",
+  "concept_match": <boolean: does your identification match the student's stated concept?>,
+  "anachronisms_detected": "<string: list specific visual elements that violate the stated tradition's period or grammar — or 'none detected'>",
+  "scores": {
+    "tradition_authenticity": {
+      "score": <float 0.0–10.0>,
+      "reason": "<does the image genuinely inhabit the stated tradition or merely imitate its surface? name specific visual elements that support your assessment>",
+      "improvement": "<one concrete, actionable suggestion>"
+    },
+    "tradition_identifiability": {
+      "score": <float 0.0–10.0>,
+      "reason": "<would a knowledgeable viewer identify this tradition without being told? how confidently?>",
+      "improvement": "<one concrete, actionable suggestion>"
+    },
+    "concept_discernibility": {
+      "score": <float 0.0–10.0>,
+      "reason": "<can the stated concept be recognized by someone who knows it? is it integrated or pasted in?>",
+      "improvement": "<one concrete, actionable suggestion>"
+    },
+    "grammar_over_surface": {
+      "score": <float 0.0–10.0>,
+      "reason": "<does the image apply the tradition's compositional rules, color logic, and structural conventions — or only its general visual texture?>",
+      "improvement": "<one concrete, actionable suggestion>"
+    },
+    "integration": {
+      "score": <float 0.0–10.0>,
+      "reason": "<do the concept and the tradition feel genuinely fused, or does the concept feel pasted into a styled background?>",
+      "improvement": "<one concrete, actionable suggestion>"
+    }
+  },
+  "overall_score": <float: simple average of the five scores above>,
+  "exhibition_worthy": <boolean>,
+  "one_line_verdict": "<single evaluative sentence, max 20 words>"
 }
